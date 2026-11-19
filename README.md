@@ -184,3 +184,17 @@ To integrate PyTorch, TensorFlow, or ONNX:
 2. In `backend/app/ai/predictor.py`, load your `.pt`, `.onnx`, or `.h5` file inside `__init__()`.
 3. In `predict()`, preprocess the image from `image_path`, run model inference, and return the dictionary matching the schema.
 4. No changes to the frontend or API endpoints will be necessary.
+
+---
+
+## Deployment
+
+Single-service deployment: **Render runs FastAPI and also serves the static
+frontend** (`index.html`, `js/`, `assets/`) from the same URL. No separate
+frontend host is needed.
+
+The repository includes `Dockerfile`, `.dockerignore` and `render.yaml`.
+`js/config.js` automatically uses the same origin in production, so no API URL
+needs to be configured.
+
+See **[DEPLOYMENT.md](DEPLOYMENT.md)** for the complete step-by-step guide.

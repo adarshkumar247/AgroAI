@@ -1,0 +1,29 @@
+# Git / local tooling
+.git
+.gitignore
+.venv
+backend/.venv
+
+# Python caches
+**/__pycache__
+**/*.py[cod]
+
+# Secrets and runtime data
+.env
+backend/.env
+backend/uploads
+backend/backup
+*.db
+*.sqlite3
+
+# Not needed inside the API container
+stitch_agroai_smart_agriculture_assistant
+README.md
+DEPLOYMENT.md
+serve.ps1
+start.bat
+start-all.bat
+backend/data
+backend/ml
+backend/scripts
+backend/test_*.py
