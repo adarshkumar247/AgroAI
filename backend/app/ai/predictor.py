@@ -9,6 +9,9 @@ import os
 from typing import Optional, Dict, Any, List
 import torch
 
+# Keep inference predictable on small containers (Render Free has 0.1 CPU).
+torch.set_num_threads(1)
+
 from backend.app.ai.model import AgroDiseaseClassifier
 from backend.app.ai.preprocessing import load_and_preprocess_image
 from backend.app.ai.labels import class_manager

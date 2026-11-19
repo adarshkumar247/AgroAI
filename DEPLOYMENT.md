@@ -1,5 +1,7 @@
 # Deploying AgroAI on Render
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/adarshkumar247/AgroAI)
+
 One Render web service runs the FastAPI backend and serves the static frontend
 from the same URL:
 
