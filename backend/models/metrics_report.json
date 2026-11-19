@@ -1,0 +1,220 @@
+{
+  "accuracy": 0.9061,
+  "top_3_accuracy": 0.9879,
+  "macro_f1": 0.9054,
+  "total_samples": 330,
+  "per_class": {
+    "Corn___Common_rust_": {
+      "precision": 1.0,
+      "recall": 0.9286,
+      "f1_score": 0.963,
+      "support": 28
+    },
+    "Corn___Northern_Leaf_Blight": {
+      "precision": 0.9444,
+      "recall": 1.0,
+      "f1_score": 0.9714,
+      "support": 34
+    },
+    "Corn___healthy": {
+      "precision": 0.9643,
+      "recall": 0.9643,
+      "f1_score": 0.9643,
+      "support": 28
+    },
+    "Potato___Early_blight": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 29
+    },
+    "Potato___Late_blight": {
+      "precision": 0.9583,
+      "recall": 0.7667,
+      "f1_score": 0.8519,
+      "support": 30
+    },
+    "Potato___healthy": {
+      "precision": 0.8947,
+      "recall": 0.9714,
+      "f1_score": 0.9315,
+      "support": 35
+    },
+    "Rice___Brown_spot": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 26
+    },
+    "Tomato___Early_blight": {
+      "precision": 0.8276,
+      "recall": 0.7742,
+      "f1_score": 0.8,
+      "support": 31
+    },
+    "Tomato___Late_blight": {
+      "precision": 0.8846,
+      "recall": 0.7419,
+      "f1_score": 0.807,
+      "support": 31
+    },
+    "Tomato___Target_Spot": {
+      "precision": 0.6875,
+      "recall": 0.88,
+      "f1_score": 0.7719,
+      "support": 25
+    },
+    "Tomato___healthy": {
+      "precision": 0.8611,
+      "recall": 0.9394,
+      "f1_score": 0.8986,
+      "support": 33
+    }
+  },
+  "confusion_matrix": [
+    [
+      26,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      34,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      27,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      29,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      23,
+      4,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      34,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      26,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      24,
+      2,
+      4,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      23,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      22,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      31
+    ]
+  ],
+  "loss": 0.249
+}
